@@ -11,8 +11,8 @@
 
 ### How to run the env using gazebo turtlebot
 
-* shift the turtlebot_custom_gazebo_worlds folder in your home                        
-* execute the followind command; replace raj with whatever name your user has.    
+1) shift the turtlebot_custom_gazebo_worlds folder in your home                        
+2) execute the followind command; replace raj with whatever name your user has.    
 ```
   roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/raj/turtlebot_custom_gazebo_worlds/tutorial.world
 ```
