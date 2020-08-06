@@ -38,6 +38,7 @@ class GazeboEnv(gym.Env):
 
         self.gzclient_pid = 0
 
+
     def _step(self, action):
 
         # Implement this method in every subclass
